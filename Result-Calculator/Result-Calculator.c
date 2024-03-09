@@ -123,7 +123,7 @@ int main()
     if (per_m >= 70 && per_m <= 79)
         grade_m = 'C', point_m = 3;
     if (per_m >= 60 && per_m <= 69)
-        grade_che = 'D', point_m = 2;
+        grade_m = 'D', point_m = 2;
     if (per_m >= 40 && per_m <= 59)
         grade_m = 'E', point_m = 1;
     if (per_m < 40)
@@ -161,12 +161,12 @@ int main()
         t_grade = 'F', t_point = 0;
 
     printf("Subject name || Number || Percentage || Grade || Point\n");
-    printf("Physics || %.2f || %.2f%% || %c || %d\n", p, per_p, grade_p, point_p);
-    printf("Chemistry || %.2f || %.2f%% || %c || %d\n", che, per_che, grade_che, point_che);
-    printf("Biology || %.2f || %.2f%% || %c || %d\n", b, per_b, grade_b, point_b);
-    printf("Mathematics || %.2f || %.2f%% || %c || %d\n", m, per_m, grade_m, point_m);
-    printf("Computer || %.2f || %.2f%% || %c || %d\n", com, per_com, grade_com, point_com);
-    printf("Total || %.2f || %.2f%% || %c || %d\n", t_num, t_per, t_grade, t_point);
+    printf("Physics      || %.2f || %.2f%% || %c || %d\n", p, per_p, grade_p, point_p);
+    printf("Chemistry    || %.2f || %.2f%% || %c || %d\n", che, per_che, grade_che, point_che);
+    printf("Biology      || %.2f || %.2f%% || %c || %d\n", b, per_b, grade_b, point_b);
+    printf("Mathematics  || %.2f || %.2f%% || %c || %d\n", m, per_m, grade_m, point_m);
+    printf("Computer     || %.2f || %.2f%% || %c || %d\n\n", com, per_com, grade_com, point_com);
+    printf("Total        || %.2f || %.2f%% || %c || %d\n", t_num, t_per, t_grade, t_point);
 
     return 0;
 }
